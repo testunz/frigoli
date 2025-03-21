@@ -1,27 +1,125 @@
 <!DOCTYPE html>
-<html lang="it">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Dott. Enrico Frigoli</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dr. Enrico Frigoli - Psicoterapeuta</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div>
-            LOGO
+  <header class="header">
+    <div class="logo">Dr. Frigoli</div>
+    <div class="navbar">
+      <ol class="menu">
+        <li>Home</li>
+        <li>Chi sono</li>
+        <li>Servizi</li>
+        <li>Contatti</li>
+      </ol>
+    </div>
+  </header>
+
+  <hero class="hero">
+    <div class="title">Dr. Enrico Frigoli</div>
+    <div class="description">Cardiologo e Ricercatore Scientifico presso l'Ente Ospedaliero Cantonale di Lugano</div>
+    <button class="button">Richiedi una Consulenza</button>
+  </hero>
+
+  <section class="section2">
+    <div class="card">
+      <h2>Formazione ed Esperienza</h2>
+      <p>Laureato in Medicina e Chirurgia presso l'Università degli Studi di Milano (2006) con lode, specializzato in Cardiologia presso l'Università di Messina. Ricercatore presso il Cardiocentro Ticino e la Clinical Trial Unit dell'Università di Berna, con oltre 70 pubblicazioni scientifiche e più di 3.300 citazioni.</p>
+    </div>
+    <div class="card">
+      <h2>Specializzazioni</h2>
+      <p>• Psicoterapia Cognitivo-Comportamentale<br>
+         • Cardiologia Interventistica<br>
+         • Gestione dello Stress e Ansia<br>
+         • Disturbi Psicosomatici</p>
+    </div>
+    <div class="card">
+      <h2>Ricerca Scientifica</h2>
+      <p>Ricercatore di spicco nel campo della cardiologia interventistica, con particolare focus sulle sindromi coronariche acute e l'accesso vascolare. Contributore chiave dello studio MATRIX, pubblicato su The Lancet, che ha rivoluzionato l'approccio alle procedure coronariche.</p>
+    </div>
+  </section>
+
+  <section class="quote">
+    <div class="quote-text">"L'innovazione nella ricerca cardiologica per migliori risultati clinici"</div>
+    <p>- Dr. Enrico Frigoli</p>
+  </section>
+
+  <section class="competenze">
+    <h2 class="section-title">Aree di Competenza</h2>
+    <div class="competenze-grid">
+      <div class="competenza-card">
+        <div class="img-container">
+          <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500" alt="Psicoterapia">
         </div>
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>Bio</li>
-                <li>Servizi</li>
-                <li>Blog</li>
-                <li>Contatti</li>
-            </ul>
+        <h3>Psicoterapia Individuale</h3>
+        <p>Approccio personalizzato per il trattamento di ansia, depressione e disturbi dell'umore.</p>
+      </div>
+      <div class="competenza-card">
+        <div class="img-container">
+          <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500" alt="Cardiologia">
         </div>
-    </nav>
-    <h1>Dott. Enrico Frigoli</h1>
-    <h2>Psicoterapeuta</h2>
+        <h3>Cardiologia</h3>
+        <p>Diagnosi e trattamento delle patologie cardiovascolari con approccio integrato mente-corpo.</p>
+      </div>
+      <div class="competenza-card">
+        <div class="img-container">
+          <img src="https://images.unsplash.com/photo-1573883431205-98b5f10aaedb?w=500" alt="Ricerca">
+        </div>
+        <h3>Psicocardiologia</h3>
+        <p>Studio della relazione tra stress emotivo e salute cardiovascolare.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pubblicazioni">
+    <h2 class="section-title">Key Publications</h2>
+    <div class="pubblicazione">
+      <h3>Radial versus femoral access in patients with acute coronary syndromes undergoing invasive management: a randomised multicentre trial</h3>
+      <p>The Lancet, 2015 - MATRIX Access Trial</p>
+    </div>
+    <div class="pubblicazione">
+      <h3>Radiation Exposure and Vascular Access in Acute Coronary Syndromes: The RAD-Matrix Trial</h3>
+      <p>Journal of the American College of Cardiology, 2017</p>
+    </div>
+    <div class="pubblicazione">
+      <h3>Radial versus femoral access and bivalirudin versus unfractionated heparin in invasively managed patients with acute coronary syndrome (MATRIX): final 1-year results of a multicentre, randomised controlled trial</h3>
+      <p>The Lancet, 2018</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-section">
+      <h3>Contatti</h3>
+      <p>Ente Ospedaliero Cantonale di Lugano<br>Via Tesserete 46, 6900 Lugano</p>
+      <p>Cardiocentro Ticino</p>
+      <p>Email: contatto@dottfrigoli.ch</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Orari</h3>
+      <p>Lunedì - Venerdì: 9:00 - 19:00</p>
+      <p>Sabato: 9:00 - 13:00</p>
+      <p>Domenica: Chiuso</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Prenota</h3>
+      <p>Per prenotare una consulenza, contattaci telefonicamente o via email.</p>
+      <button class="button">Richiedi Appuntamento</button>
+    </div>
+
+    <div class="copyright">
+      <p>© 2024 Dr. Enrico Frigoli - Tutti i diritti riservati</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
